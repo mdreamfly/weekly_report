@@ -99,7 +99,7 @@ const Home: NextPage = () => {
 
       <a
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-          href="https://github.com/guaguaguaxia/weekly_report"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -115,7 +115,7 @@ const Home: NextPage = () => {
         <p className="text-slate-500 mt-5">{t('slogan')}</p>
 
         <p className="text-slate-1000 mt-5 sm:text-2xl" >
-          此功能于2023-02-15 00:00:00暂时下线<br></br>
+          <br></br>
         <br></br>
         </p>
         <p className="text-slate-1000 mt-5 " style={{textAlign: "left"}}>
@@ -182,7 +182,7 @@ const Home: NextPage = () => {
                 {t('privacyPolicy1')}
               <a
                 className="text-blue-200 hover:text-blue-400"
-                href="https://github.com/guaguaguaxia/weekly_report/blob/main/privacy.md"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
               >{' '}{t('privacyPolicy2')}</a>
